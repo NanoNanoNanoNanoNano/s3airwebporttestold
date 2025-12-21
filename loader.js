@@ -94,9 +94,9 @@ var REMOTE_PACKAGE_SIZE = metadata['remote_package_size'];
       function assert(check, msg) {
         if (!check) throw msg + new Error().stack;
       }
-Module['FS_createPath']("/", "data", true, true);
-Module['FS_createPath']("/data", "font", true, true);
-Module['FS_createPath']("/data/font", "ttf", true, true);
+Module['FS_createPath']("/", "sonic3air", true, true);
+Module['FS_createPath']("/sonic3air", "data", true, true);
+Module['FS_createPath']("/sonic3air/data", "font", true, true);
 
       /** @constructor */
       function DataRequest(start, end, audio) {
@@ -349,6 +349,6 @@ Module['FS_createPath']("/data/font", "ttf", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/config.json", "start": 0, "end": 2194}, {"filename": "/data/audiodata.bin", "start": 2194, "end": 2291767}, {"filename": "/data/enginedata.bin", "start": 2291767, "end": 2369356}, {"filename": "/data/font/freefont_sampled.json", "start": 2369356, "end": 2371577}, {"filename": "/data/font/freefont_sampled.png", "start": 2371577, "end": 2378207}, {"filename": "/data/font/monofont.json", "start": 2378207, "end": 2380445}, {"filename": "/data/font/monofont.png", "start": 2380445, "end": 2381793}, {"filename": "/data/font/oxyfont_light.json", "start": 2381793, "end": 2383590}, {"filename": "/data/font/oxyfont_light.png", "start": 2383590, "end": 2384631}, {"filename": "/data/font/oxyfont_regular.json", "start": 2384631, "end": 2386877}, {"filename": "/data/font/oxyfont_regular.png", "start": 2386877, "end": 2388598}, {"filename": "/data/font/oxyfont_small.json", "start": 2388598, "end": 2390893}, {"filename": "/data/font/oxyfont_small.png", "start": 2390893, "end": 2392101}, {"filename": "/data/font/oxyfont_tiny.json", "start": 2392101, "end": 2394219}, {"filename": "/data/font/oxyfont_tiny.png", "start": 2394219, "end": 2395169}, {"filename": "/data/font/oxyfont_tiny_narrow.json", "start": 2395169, "end": 2397290}, {"filename": "/data/font/oxyfont_tiny_narrow.png", "start": 2397290, "end": 2398208}, {"filename": "/data/font/smallfont.json", "start": 2398208, "end": 2400440}, {"filename": "/data/font/smallfont.png", "start": 2400440, "end": 2401088}, {"filename": "/data/font/sonic3_fontB.json", "start": 2401088, "end": 2402762}, {"filename": "/data/font/sonic3_fontB.png", "start": 2402762, "end": 2403587}, {"filename": "/data/font/sonic3_fontC.json", "start": 2403587, "end": 2405283}, {"filename": "/data/font/sonic3_fontC.png", "start": 2405283, "end": 2406510}, {"filename": "/data/font/ttf/DroidSans.ttf", "start": 2406510, "end": 2596554}, {"filename": "/data/font/ttf/DroidSans_LICENSE.txt", "start": 2596554, "end": 2608114}, {"filename": "/data/gamedata.bin", "start": 2608114, "end": 6724901}, {"filename": "/data/metadata.json", "start": 6724901, "end": 6725063}, {"filename": "/data/scripts.bin", "start": 6725063, "end": 7509948}], "remote_package_size": 7509948, "package_uuid": "sha256-8f68713c05651f03ca1ceec89b2c697a951f219b0d4dfdc8d089f57b3ee091d7"});
+    loadPackage({"files": [{"filename": "/sonic3air/config.json", "start": 0, "end": 2138}, {"filename": "/sonic3air/data/audiodata.bin", "start": 2138, "end": 2291711}, {"filename": "/sonic3air/data/enginedata.bin", "start": 2291711, "end": 2798839}, {"filename": "/sonic3air/data/font/sonic3_fontB.json", "start": 2798839, "end": 2800513}, {"filename": "/sonic3air/data/font/sonic3_fontB.png", "start": 2800513, "end": 2801338}, {"filename": "/sonic3air/data/font/sonic3_fontC.json", "start": 2801338, "end": 2803034}, {"filename": "/sonic3air/data/font/sonic3_fontC.png", "start": 2803034, "end": 2804261}, {"filename": "/sonic3air/data/gamedata.bin", "start": 2804261, "end": 6510024}, {"filename": "/sonic3air/data/metadata.json", "start": 6510024, "end": 6510186}, {"filename": "/sonic3air/data/scripts.bin", "start": 6510186, "end": 7294642}], "remote_package_size": 7294642, "package_uuid": "sha256-2e2bdf61e2d73340c83e6f2a6f12ed4833a3e7e3ef96d95f47f93853c28b801b"});
 
   })();
