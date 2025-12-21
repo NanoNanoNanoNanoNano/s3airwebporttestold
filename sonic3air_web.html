@@ -125,9 +125,9 @@ function hideIOSoverlay(){
 function onPageLoaded(){
 	//Uncomment the service worker below for actual releases to force files to be cached so you can play offline.
 	//Leave it commented when testing because otherwise when you refresh the page you'll still be getting cached data.
-	/*if('serviceWorker' in navigator) {
+	if('serviceWorker' in navigator) {
     	navigator.serviceWorker.register('worker.js');
-	};*/
+	};
 	var startup = document.getElementById("startup");
 	startup.style.display = 'none';
 	
