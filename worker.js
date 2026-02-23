@@ -1,11 +1,15 @@
-var _cacheName = 'sonic3air-v20260215';
+var _cacheName = 'sonic3air-v20240202';
 var _cacheFiles = [
 	'sonic3air_web.html',
 	'sonic3air_web.js',
 	'sonic3air_web.wasm',
 	'loader.js',
 	'manifest.json',
-	'icon.png'
+	'icon.png',
+	'browserfs.min.js',
+	'filemanager.js',
+	'fileManagerRuntime.js',
+	'react.js'
 ];
 	
 self.addEventListener('install', (e) => {
