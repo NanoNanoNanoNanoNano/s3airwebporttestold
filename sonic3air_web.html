@@ -138,10 +138,10 @@ function startGame(){
 	callMain();
 	
 	//Resize canvas AFTER it starts, because it needs an inital size to work properly.
-	var gameCanvas = document.getElementById('canvas');
-	gameCanvas.style.width = "min(100vw, calc(100vh * 16 / 9))";
-	gameCanvas.style.height = "min(100vh, calc(100vw * 9 / 16))";
-	gameCanvas.style.marginTop = "max(0vh, calc(50vh - (100vw * 9 / 16 / 2)))";
+	//var gameCanvas = document.getElementById('canvas');
+	//gameCanvas.style.width = "min(100vw, calc(100vh * 16 / 9))";
+	//gameCanvas.style.height = "min(100vh, calc(100vw * 9 / 16))";
+	//gameCanvas.style.marginTop = "max(0vh, calc(50vh - (100vw * 9 / 16 / 2)))";
 	
 	if(isRunningOniOS()){
 		let iosoverlay = document.getElementById('ios_workaround');
